@@ -1,0 +1,65 @@
+# The details of the environment variables you could refer to
+
+# https://www.memfree.me/docs/one-click-deploy-ai-search
+
+# Upstash Redis (Required)
+
+# https://upstash.com/docs/redis/overall/getstarted
+
+UPSTASH_REDIS_REST_URL=
+UPSTASH_REDIS_REST_TOKEN=
+
+# Auth (Required)
+
+AUTH_SECRET=
+
+# OpenAi (Required) https://platform.openai.com
+
+OPENAI_API_KEY=
+
+# MEMFREE_HOST (Required)
+
+# You could one click deploy the service in
+
+# https://zeabur.com/templates/CE71SC?referralCode=memfree
+
+MEMFREE_HOST=
+
+# API_TOKEN (Required)
+
+# should same with the API_TOKEN in the backend
+
+API_TOKEN=
+
+# Auth Providers (Optional)
+
+AUTH_GITHUB_ID=
+AUTH_GITHUB_SECRET=
+
+# Auth Providers (Optional)
+
+AUTH_GOOGLE_ID=
+AUTH_GOOGLE_SECRET=
+
+NEXT_PUBLIC_APP_URL="http://localhost:3000"
+
+# https://serper.dev/ (Optional)
+
+SERPER_API_KEY=
+
+# subscription (optional)
+
+BUTTONDOWN_API_KEY =
+
+# Axiom log (optional)
+
+AXIOM_TOKEN=
+
+# Stripe (optional)
+
+STRIPE_API_KEY =
+STRIPE_WEBHOOK_SECRET =
+NEXT_PUBLIC_STRIPE_PRO_MONTHLY_PLAN_ID =
+NEXT_PUBLIC_STRIPE_PRO_YEARLY_PLAN_ID =
+NEXT_PUBLIC_STRIPE_BUSINESS_MONTHLY_PLAN_ID =
+NEXT_PUBLIC_STRIPE_BUSINESS_YEARLY_PLAN_ID =
